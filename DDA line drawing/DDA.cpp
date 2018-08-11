@@ -25,7 +25,7 @@ xi = dx/step;
 yi = dy/step;
 float x = x1;
 float y = y1;
-putpixel(int(x),int(y),222);
+putpixel(int(x),int(y),1);
 for(int k=1;k<=step;k++){
     x = x + xi;
     y = y + yi;
